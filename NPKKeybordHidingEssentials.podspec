@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://www.facebook.com/neerajneeruz'
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/neerajneeruz/NPKKeybordHidingEssentials.git", :tag => s.version.to_s }
-  s.source_files = 'GlobalUrlAccess'
+  s.source_files = 'NPKKeybordHidingEssentials'
   s.requires_arc = true
 
 end
