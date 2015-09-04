@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FE91311B999B6300F34DD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE91301B999B6300F34DD3 /* main.m */; };
+		84FE91341B999B6300F34DD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE91331B999B6300F34DD3 /* AppDelegate.m */; };
+		84FE91371B999B6300F34DD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE91361B999B6300F34DD3 /* ViewController.m */; };
+		84FE913A1B999B6400F34DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FE91381B999B6300F34DD3 /* Main.storyboard */; };
+		84FE913C1B999B6400F34DD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FE913B1B999B6400F34DD3 /* Images.xcassets */; };
+		84FE913F1B999B6400F34DD3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FE913D1B999B6400F34DD3 /* LaunchScreen.xib */; };
+		84FE914B1B999B6500F34DD3 /* NPKKeybordHidingEssentialsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE914A1B999B6500F34DD3 /* NPKKeybordHidingEssentialsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FE91451B999B6400F34DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FE91231B999B6200F34DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FE912A1B999B6200F34DD3;
+			remoteInfo = NPKKeybordHidingEssentials;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84FE912B1B999B6200F34DD3 /* NPKKeybordHidingEssentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPKKeybordHidingEssentials.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FE912F1B999B6300F34DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FE91301B999B6300F34DD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84FE91321B999B6300F34DD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84FE91331B999B6300F34DD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84FE91351B999B6300F34DD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84FE91361B999B6300F34DD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84FE91391B999B6300F34DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FE913B1B999B6400F34DD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84FE913E1B999B6400F34DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84FE91441B999B6400F34DD3 /* NPKKeybordHidingEssentialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPKKeybordHidingEssentialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FE91491B999B6500F34DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FE914A1B999B6500F34DD3 /* NPKKeybordHidingEssentialsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPKKeybordHidingEssentialsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FE91281B999B6200F34DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FE91411B999B6400F34DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FE91221B999B6200F34DD3 = {
+			isa = PBXGroup;
+			children = (
+				84FE912D1B999B6200F34DD3 /* NPKKeybordHidingEssentials */,
+				84FE91471B999B6400F34DD3 /* NPKKeybordHidingEssentialsTests */,
+				84FE912C1B999B6200F34DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FE912C1B999B6200F34DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FE912B1B999B6200F34DD3 /* NPKKeybordHidingEssentials.app */,
+				84FE91441B999B6400F34DD3 /* NPKKeybordHidingEssentialsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FE912D1B999B6200F34DD3 /* NPKKeybordHidingEssentials */ = {
+			isa = PBXGroup;
+			children = (
+				84FE91321B999B6300F34DD3 /* AppDelegate.h */,
+				84FE91331B999B6300F34DD3 /* AppDelegate.m */,
+				84FE91351B999B6300F34DD3 /* ViewController.h */,
+				84FE91361B999B6300F34DD3 /* ViewController.m */,
+				84FE91381B999B6300F34DD3 /* Main.storyboard */,
+				84FE913B1B999B6400F34DD3 /* Images.xcassets */,
+				84FE913D1B999B6400F34DD3 /* LaunchScreen.xib */,
+				84FE912E1B999B6300F34DD3 /* Supporting Files */,
+			);
+			path = NPKKeybordHidingEssentials;
+			sourceTree = "<group>";
+		};
+		84FE912E1B999B6300F34DD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FE912F1B999B6300F34DD3 /* Info.plist */,
+				84FE91301B999B6300F34DD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FE91471B999B6400F34DD3 /* NPKKeybordHidingEssentialsTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FE914A1B999B6500F34DD3 /* NPKKeybordHidingEssentialsTests.m */,
+				84FE91481B999B6500F34DD3 /* Supporting Files */,
+			);
+			path = NPKKeybordHidingEssentialsTests;
+			sourceTree = "<group>";
+		};
+		84FE91481B999B6500F34DD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FE91491B999B6500F34DD3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FE912A1B999B6200F34DD3 /* NPKKeybordHidingEssentials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FE914E1B999B6500F34DD3 /* Build configuration list for PBXNativeTarget "NPKKeybordHidingEssentials" */;
+			buildPhases = (
+				84FE91271B999B6200F34DD3 /* Sources */,
+				84FE91281B999B6200F34DD3 /* Frameworks */,
+				84FE91291B999B6200F34DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPKKeybordHidingEssentials;
+			productName = NPKKeybordHidingEssentials;
+			productReference = 84FE912B1B999B6200F34DD3 /* NPKKeybordHidingEssentials.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FE91431B999B6400F34DD3 /* NPKKeybordHidingEssentialsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FE91511B999B6500F34DD3 /* Build configuration list for PBXNativeTarget "NPKKeybordHidingEssentialsTests" */;
+			buildPhases = (
+				84FE91401B999B6400F34DD3 /* Sources */,
+				84FE91411B999B6400F34DD3 /* Frameworks */,
+				84FE91421B999B6400F34DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FE91461B999B6400F34DD3 /* PBXTargetDependency */,
+			);
+			name = NPKKeybordHidingEssentialsTests;
+			productName = NPKKeybordHidingEssentialsTests;
+			productReference = 84FE91441B999B6400F34DD3 /* NPKKeybordHidingEssentialsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FE91231B999B6200F34DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Mfluid Mobile Apps Pvt. Ltd.";
+				TargetAttributes = {
+					84FE912A1B999B6200F34DD3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					84FE91431B999B6400F34DD3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 84FE912A1B999B6200F34DD3;
+					};
+				};
+			};
+			buildConfigurationList = 84FE91261B999B6200F34DD3 /* Build configuration list for PBXProject "NPKKeybordHidingEssentials" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FE91221B999B6200F34DD3;
+			productRefGroup = 84FE912C1B999B6200F34DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FE912A1B999B6200F34DD3 /* NPKKeybordHidingEssentials */,
+				84FE91431B999B6400F34DD3 /* NPKKeybordHidingEssentialsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FE91291B999B6200F34DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FE913A1B999B6400F34DD3 /* Main.storyboard in Resources */,
+				84FE913F1B999B6400F34DD3 /* LaunchScreen.xib in Resources */,
+				84FE913C1B999B6400F34DD3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FE91421B999B6400F34DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FE91271B999B6200F34DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FE91371B999B6300F34DD3 /* ViewController.m in Sources */,
+				84FE91341B999B6300F34DD3 /* AppDelegate.m in Sources */,
+				84FE91311B999B6300F34DD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FE91401B999B6400F34DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FE914B1B999B6500F34DD3 /* NPKKeybordHidingEssentialsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FE91461B999B6400F34DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FE912A1B999B6200F34DD3 /* NPKKeybordHidingEssentials */;
+			targetProxy = 84FE91451B999B6400F34DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FE91381B999B6300F34DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FE91391B999B6300F34DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FE913D1B999B6400F34DD3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FE913E1B999B6400F34DD3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FE914C1B999B6500F34DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FE914D1B999B6500F34DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FE914F1B999B6500F34DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NPKKeybordHidingEssentials/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84FE91501B999B6500F34DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NPKKeybordHidingEssentials/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84FE91521B999B6500F34DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NPKKeybordHidingEssentialsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPKKeybordHidingEssentials.app/NPKKeybordHidingEssentials";
+			};
+			name = Debug;
+		};
+		84FE91531B999B6500F34DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NPKKeybordHidingEssentialsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPKKeybordHidingEssentials.app/NPKKeybordHidingEssentials";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FE91261B999B6200F34DD3 /* Build configuration list for PBXProject "NPKKeybordHidingEssentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FE914C1B999B6500F34DD3 /* Debug */,
+				84FE914D1B999B6500F34DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FE914E1B999B6500F34DD3 /* Build configuration list for PBXNativeTarget "NPKKeybordHidingEssentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FE914F1B999B6500F34DD3 /* Debug */,
+				84FE91501B999B6500F34DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84FE91511B999B6500F34DD3 /* Build configuration list for PBXNativeTarget "NPKKeybordHidingEssentialsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FE91521B999B6500F34DD3 /* Debug */,
+				84FE91531B999B6500F34DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FE91231B999B6200F34DD3 /* Project object */;
+}
