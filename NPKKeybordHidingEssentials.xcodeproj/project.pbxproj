@@ -14,6 +14,10 @@
 		84FE913C1B999B6400F34DD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FE913B1B999B6400F34DD3 /* Images.xcassets */; };
 		84FE913F1B999B6400F34DD3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FE913D1B999B6400F34DD3 /* LaunchScreen.xib */; };
 		84FE914B1B999B6500F34DD3 /* NPKKeybordHidingEssentialsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE914A1B999B6500F34DD3 /* NPKKeybordHidingEssentialsTests.m */; };
+		84FE915C1B999B9800F34DD3 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE91551B999B9800F34DD3 /* TPKeyboardAvoidingCollectionView.m */; };
+		84FE915D1B999B9800F34DD3 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE91571B999B9800F34DD3 /* TPKeyboardAvoidingScrollView.m */; };
+		84FE915E1B999B9800F34DD3 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE91591B999B9800F34DD3 /* TPKeyboardAvoidingTableView.m */; };
+		84FE915F1B999B9800F34DD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE915B1B999B9800F34DD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		84FE91441B999B6400F34DD3 /* NPKKeybordHidingEssentialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPKKeybordHidingEssentialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FE91491B999B6500F34DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FE914A1B999B6500F34DD3 /* NPKKeybordHidingEssentialsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPKKeybordHidingEssentialsTests.m; sourceTree = "<group>"; };
+		84FE91541B999B9800F34DD3 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		84FE91551B999B9800F34DD3 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		84FE91561B999B9800F34DD3 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		84FE91571B999B9800F34DD3 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		84FE91581B999B9800F34DD3 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		84FE91591B999B9800F34DD3 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		84FE915A1B999B9800F34DD3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		84FE915B1B999B9800F34DD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,14 @@
 				84FE91331B999B6300F34DD3 /* AppDelegate.m */,
 				84FE91351B999B6300F34DD3 /* ViewController.h */,
 				84FE91361B999B6300F34DD3 /* ViewController.m */,
+				84FE91541B999B9800F34DD3 /* TPKeyboardAvoidingCollectionView.h */,
+				84FE91551B999B9800F34DD3 /* TPKeyboardAvoidingCollectionView.m */,
+				84FE91561B999B9800F34DD3 /* TPKeyboardAvoidingScrollView.h */,
+				84FE91571B999B9800F34DD3 /* TPKeyboardAvoidingScrollView.m */,
+				84FE91581B999B9800F34DD3 /* TPKeyboardAvoidingTableView.h */,
+				84FE91591B999B9800F34DD3 /* TPKeyboardAvoidingTableView.m */,
+				84FE915A1B999B9800F34DD3 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				84FE915B1B999B9800F34DD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 				84FE91381B999B6300F34DD3 /* Main.storyboard */,
 				84FE913B1B999B6400F34DD3 /* Images.xcassets */,
 				84FE913D1B999B6400F34DD3 /* LaunchScreen.xib */,
@@ -220,7 +240,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FE91371B999B6300F34DD3 /* ViewController.m in Sources */,
+				84FE915D1B999B9800F34DD3 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				84FE91341B999B6300F34DD3 /* AppDelegate.m in Sources */,
+				84FE915F1B999B9800F34DD3 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				84FE915E1B999B9800F34DD3 /* TPKeyboardAvoidingTableView.m in Sources */,
+				84FE915C1B999B9800F34DD3 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				84FE91311B999B6300F34DD3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
